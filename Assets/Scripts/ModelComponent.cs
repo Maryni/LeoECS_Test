@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-internal struct ModelComponent
+[Serializable]
+public struct ModelComponent
 {
     public Transform ModelTransform;
 }

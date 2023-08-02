@@ -39,12 +39,10 @@ public class EcsGameStartup : MonoBehaviour
 
     private void AddOneFrames()
     {
-        throw new NotImplementedException();
     }
 
     private void AddInjections()
     {
-        throw new NotImplementedException();
     }
 
     private void OnDestroy()
@@ -56,6 +54,5 @@ public class EcsGameStartup : MonoBehaviour
         systems = null;
         world.Destroy();
         world = null;
-
     }
 }

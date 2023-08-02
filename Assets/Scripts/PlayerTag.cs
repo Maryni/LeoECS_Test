@@ -1,4 +1,7 @@
-﻿internal struct PlayerTag
+﻿using System;
+
+[Serializable]
+public struct PlayerTag
 {
 
 }
